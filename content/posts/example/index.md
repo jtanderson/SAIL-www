@@ -38,11 +38,6 @@ $$ a_n =
 $$
 ```
 
-Finally, here is me testing adding an image to the page: ![sponge-math](/sponge-math.png)
-The spongebob image is stored in the `/static` folder.
-After site compilation, it will reside in the root of the site (not great).
-Preferably, we will use images local to each post when appropriate:
-
 And using an image local to this post: ![barrel](barrel_1.jpeg)
 This image is local to the `index.md` file for this post and will get compiled into a folder alongside the final html.
 Note that the final structure for this post is:

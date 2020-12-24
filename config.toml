@@ -1,0 +1,75 @@
+baseURL = "https://faculty.salisbury.edu/~jtanderson/sail/"
+languageCode = "en-us"
+title = "SAIL: Salisbury AI Lab"
+theme = "manis"
+copyright = ""
+paginate = 10
+
+# Code Highlighting (Chroma)
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[menu]
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+
+[params]
+  # If false, use minified CSS (ui.min.css)
+  debugCSS = false
+  # Custom CSS
+  customCSS = [ "static/css/sail.css" ]
+
+  # Site meta description
+  description = "Salisbury AI Lab Homepage"
+  # Site's Tagline (Subtitle or Keyword)
+  tagline = "Salisbury AI Lab"
+  # If true give attribution to this theme
+  themeAttrib = false
+  # URL to license file, can be outside of your domain
+  #licenseURL = "/about/license"
+
+  # Configure which sections for Latest Posts
+  mainSections = ["about", "posts"]
+  # Configure which sections for Latest Works
+  #workSections = ["work"]
+  
+  # List of sections that support disqus comments
+  #disqusSections = [ "blog" ]
+  # List of sections that support utterances comments
+  #utterancesSections = [ "blog" ]
+
+  MathJax = true
+  
+  # Utterances Configuration
+  #utterancesRepo = ""
+  #utterancesTheme = "github-light"
+  #utterancesLabel = ""
+
+  # 404 Configuration
+  head404 = "Sorry, I can't find what you want."
+  sub404 = "Back to <a href='/'>Home</a>."
+
+  # Color of your website's accent
+  colorTheme = "#990000"
+  # Maximum number of item in Latest Posts or Works
+  latestCount = 3
+  # Path to site's favicon image
+  faviconImg = ""
+  # Date format in item list
+  dateFmt = "Jan 02, 2006"
+
+  # Code Highlighting (HighlightJS)
+  highlightJs = true
+  highlightJsLanguages = [ "python", "c++", "latex", "html" ]
+  highlightJsStyle = "ocean"
+
+  # Social Links
+  email = ""
+  github = ""
+  twitter = ""
+

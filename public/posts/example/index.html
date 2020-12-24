@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="generator" content="Hugo 0.79.1" />
+  <title>Example Post - SAIL: Salisbury AI Lab</title>
+
+  <meta name="description" content="This is the homepage of the Salisuby AI Lab (SAIL)!
+Let&rsquo;s try some \( \LaTeX \)! Let \( f(x) = x^2 \). Can we still do nice things with Markdown getting in the way? How about a sequence: \( a_n = a_{n-1} &#43; 2 \). Hopefully this text renders sanely from here on out&hellip; but the syntax highlighting in your editor is probably going crazy by now :)
+Time for some inline: $$ a_n = \begin{cases} 3 \cdot a_n-2 &amp;\text{ if } n &gt; 2 \\">
+
+
+  
+
+  
+
+
+
+
+<link rel="stylesheet" href="/~jtanderson/sail/css/ui.css">
+
+
+  
+  <link rel="stylesheet" href="static/css/sail.css"/>
+  
+
+  <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono|Lato|Raleway">
+
+  
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/ocean.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/languages/python.min.js"></script>
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/languages/c&#43;&#43;.min.js"></script>
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/languages/latex.min.js"></script>
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/languages/html.min.js"></script>
+  
+  
+</head>
+
+<body>
+<header class="container no-print">
+	<div class="u-header">
+		<nav class="bar">
+  <ul><li>
+      <a href="https://faculty.salisbury.edu/~jtanderson/sail/">
+        <img class="icon-text" src="https://faculty.salisbury.edu/~jtanderson/sail//img/prev.svg"/>
+      </a>
+    </li><li><a href="/~jtanderson/sail/about/">About</a></li><li><a href="/~jtanderson/sail/posts/">Posts</a></li></ul>
+</nav>
+
+	</div>
+</header>
+<main class="container">
+
+<article>
+	<header><hgroup id="brand">
+	<h1>Example Post</h1>
+	<h5>
+		
+		<time datetime="2020-12-24 10:21:56 -0500 EST">Dec 24, 2020</time>
+		<span class="no-print">
+			<span>
+	</h5>
+	
+</hgroup>
+<hr class="sep" />
+</header>
+	<p>This is the homepage of the Salisuby AI Lab (SAIL)!</p>
+<p>Let&rsquo;s try some \( \LaTeX \)! Let \( f(x) = x^2 \).
+Can we still do nice things with Markdown getting in the way?
+How about a sequence: \( a_n = a_{n-1} + 2 \).
+Hopefully this text renders sanely from here on out&hellip; but the syntax highlighting in your editor is probably going crazy by now :)</p>
+<p>Time for some inline:
+$$ a_n =
+\begin{cases}
+3 \cdot a_n-2 &amp;\text{ if } n &gt; 2 \\<br>
+1 &amp;\text{ if } n \leq 2.
+\end{cases}
+$$</p>
+<p>That works fine with the caveat that <em>all</em> backslases get escaped during the process!</p>
+<p>Here is the source for the above text (oh yes, check out that sweet syntax highliting!):</p>
+<div class="highlight"><pre class="chroma"><code class="language-latex" data-lang="latex">Let&#39;s try some <span class="k">\\</span>( <span class="k">\LaTeX</span> <span class="k">\\</span>)! Let <span class="k">\\</span>( f(x) = x<span class="nb">^</span>2 <span class="k">\\</span>).
+Can we still do nice things with Markdown getting in the way?
+How about a sequence: <span class="k">\\</span>( a<span class="nb">_</span>n = a<span class="nb">_{</span>n-1<span class="nb">}</span> + 2 <span class="k">\\</span>).
+Hopefully this text renders sanely from here on out... but the syntax highlighting in your editor is probably going crazy by now :)
+
+Time for some inline:
+<span class="sb">$$</span><span class="nb"> a_n </span><span class="o">=</span><span class="nb">
+</span><span class="nb"></span><span class="nv">\begin</span><span class="nb">{cases}
+</span><span class="nb"></span><span class="m">3</span><span class="nb"> </span><span class="nv">\cdot</span><span class="nb"> a_n</span><span class="o">-</span><span class="m">2</span><span class="nb"> &amp;</span><span class="nv">\text</span><span class="nb">{ if } n &gt; </span><span class="m">2</span><span class="nb"> </span><span class="nv">\\\\</span><span class="nb">
+</span><span class="nb"></span><span class="m">1</span><span class="nb"> &amp;</span><span class="nv">\text</span><span class="nb">{ if } n </span><span class="nv">\leq</span><span class="nb"> </span><span class="m">2</span><span class="nb">.
+</span><span class="nb"></span><span class="nv">\end</span><span class="nb">{cases}
+</span><span class="nb"></span><span class="s">$$</span>
+</code></pre></div><p>Finally, here is me testing adding an image to the page: <img src="/sponge-math.png" alt="sponge-math">
+The spongebob image is stored in the <code>/static</code> folder.
+After site compilation, it will reside in the root of the site (not great).
+Preferably, we will use images local to each post when appropriate:</p>
+<p>And using an image local to this post: <img src="barrel_1.jpeg" alt="barrel">
+This image is local to the <code>index.md</code> file for this post and will get compiled into a folder alongside the final html.
+Note that the final structure for this post is:</p>
+<div class="highlight"><pre class="chroma"><code class="language-text" data-lang="text">welcome/
+  index.md        # contains the header of the post
+  barrel_1.jpeg   # the local image resource
+</code></pre></div><p>For reference, the preamble for this page looks like:</p>
+<div class="highlight"><pre class="chroma"><code class="language-text" data-lang="text">---
+title: &#34;Example Post&#34;
+date: 2020-12-24T10:21:56-05:00
+draft: false
+---
+
+[ Rest of the post here ]
+</code></pre></div><p>For further reading, check the <a href="https://gohugo.io/content-management/">Hugo Documentation</a>.</p>
+
+</article>
+<nav class="no-print post-nav">
+
+
+</nav>
+
+
+
+
+
+<hr class="sep" />
+</main>
+<footer class="container no-print">
+  <div class="u-footer">
+    
+
+
+<a href="https://faculty.salisbury.edu/~jtanderson/sail/index.xml" target="_blank"><img class="icon-social" src="https://faculty.salisbury.edu/~jtanderson/sail//img/feed.svg" alt="Feed"></a>
+
+    <p>
+    
+    
+    
+    </p>
+    
+    <a href="#brand">
+      <img class="icon-text" src="https://faculty.salisbury.edu/~jtanderson/sail//img/toup.svg" alt="To Top"/>
+      <span>Back to Top</span>
+    </a>
+    
+  </div>
+</footer>
+
+<script>hljs.initHighlightingOnLoad();</script>
+
+</body>
+</html>
+

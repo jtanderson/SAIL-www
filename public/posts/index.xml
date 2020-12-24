@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on SAIL: Salisbury AI Lab</title>
+    <link>https://faculty.salisbury.edu/~jtanderson/sail/posts/</link>
+    <description>Recent content in Posts on SAIL: Salisbury AI Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 24 Dec 2020 10:21:56 -0500</lastBuildDate><atom:link href="https://faculty.salisbury.edu/~jtanderson/sail/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Example Post</title>
+      <link>https://faculty.salisbury.edu/~jtanderson/sail/posts/example/</link>
+      <pubDate>Thu, 24 Dec 2020 10:21:56 -0500</pubDate>
+      
+      <guid>https://faculty.salisbury.edu/~jtanderson/sail/posts/example/</guid>
+      <description>This is the homepage of the Salisuby AI Lab (SAIL)!
+Let&amp;rsquo;s try some \( \LaTeX \)! Let \( f(x) = x^2 \). Can we still do nice things with Markdown getting in the way? How about a sequence: \( a_n = a_{n-1} + 2 \). Hopefully this text renders sanely from here on out&amp;hellip; but the syntax highlighting in your editor is probably going crazy by now :)
+Time for some inline: $$ a_n = \begin{cases} 3 \cdot a_n-2 &amp;amp;\text{ if } n &amp;gt; 2 \\</description>
+    </item>
+    
+  </channel>
+</rss>

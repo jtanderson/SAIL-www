@@ -18,7 +18,6 @@ $$ a_n =
 1 &\text{ if } n \leq 2.
 \end{cases}
 $$
-
 That works fine with the caveat that _all_ backslases get escaped during the process!
 
 Here is the source for the above text (oh yes, check out that sweet syntax highliting!):
@@ -41,7 +40,7 @@ $$
 And using an image local to this post: ![barrel](barrel_1.jpeg)
 This image is local to the `index.md` file for this post and will get compiled into a folder alongside the final html.
 Note that the final structure for this post is:
-```text
+​```text
 welcome/
   index.md        # contains the header of the post
   barrel_1.jpeg   # the local image resource
